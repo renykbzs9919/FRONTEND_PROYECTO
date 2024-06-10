@@ -4,7 +4,7 @@ import axios from 'axios';
 import { getToken } from '../utils/auth'; // Asegúrate de tener esta función para obtener el token de autenticación
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://backend-proyecto-gmp5.onrender.com/api',
 });
 
 // Interceptor para agregar el token a todas las solicitudes salientes
